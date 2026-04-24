@@ -14,19 +14,19 @@ icon: 'image'
   ### Uso de Markdown
 </div>
 
-La [sintaxis de Markdown](https://www.markdownguide.org/basic-syntax/#images) te permite añadir imágenes con el siguiente código
+La [sintaxis de Markdown](https://www.markdownguide.org/basic-syntax/#images) te permite añadir imágenes con el siguiente formato:
 
 ```md
 ![title](/path/image.jpg)
 ```
 
-Ten en cuenta que el tamaño del archivo de imagen debe ser inferior a 5 MB. De lo contrario, te recomendamos alojarlo en un servicio como [Cloudinary](https://cloudinary.com/) o [S3](https://aws.amazon.com/s3/). Después, puedes usar esa URL para incrustar la imagen.
+Ten en cuenta que el tamaño del archivo de imagen debe ser inferior a 5 MB. Para archivos más grandes, te recomendamos alojarlos en un servicio como [Cloudinary](https://cloudinary.com/) o [S3](https://aws.amazon.com/s3/) e incrustar la URL.
 
 <div id="using-embeds">
   ### Usar incrustaciones
 </div>
 
-Para personalizar más las imágenes, también puedes usar [incrustaciones](/es/writing-content/embed) para añadir imágenes
+Para tener más control sobre el estilo de las imágenes, puedes usar [incrustaciones](/es/writing-content/embed):
 
 ```html
 <img height="200" src="/path/image.jpg" />
@@ -41,7 +41,7 @@ Para personalizar más las imágenes, también puedes usar [incrustaciones](/es/
 <br />
 
 <Tip>
-  Mintlify admite [etiquetas HTML en Markdown](https://www.markdownguide.org/basic-syntax/#html). Esto es útil si prefieres usar etiquetas HTML en lugar de la sintaxis de Markdown y te permite crear documentación con total flexibilidad.
+  Mintlify admite [etiquetas HTML en Markdown](https://www.markdownguide.org/basic-syntax/#html), lo que te ofrece total flexibilidad cuando la sintaxis de Markdown no es suficiente.
 </Tip>
 
 <div id="iframes">

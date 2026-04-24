@@ -34,7 +34,7 @@ Sigue estos pasos para instalar y ejecutar Mintlify localmente en tu sistema ope
   ## Puertos personalizados
 </div>
 
-De forma predeterminada, Mintlify usa el puerto 3000. Puedes personalizar el puerto en el que se ejecuta Mintlify con la marca `--port`. Por ejemplo, para ejecutar Mintlify en el puerto 3333, usa este comando:
+De forma predeterminada, Mintlify usa el puerto 3000. Puedes cambiar el puerto con la marca `--port`. Por ejemplo, para ejecutarlo en el puerto 3333:
 
 ```bash
 mint dev --port 3333
@@ -50,7 +50,7 @@ El puerto 3000 ya está en uso. Se probará con el 3001.
   ## Versiones de Mintlify
 </div>
 
-Ten en cuenta que cada versión de la CLI está asociada a una versión específica de Mintlify. Si la vista previa local no coincide con la versión de producción, actualiza la CLI:
+Cada versión de la CLI está asociada a una versión específica de Mintlify. Si la vista previa local no coincide con la versión de producción, actualiza la CLI:
 
 ```bash
 npm mint update
@@ -60,7 +60,7 @@ npm mint update
   ## Validar enlaces
 </div>
 
-La CLI puede ayudarte a validar los enlaces de tu documentación. Para identificar cualquier enlace roto, usa el siguiente comando:
+La CLI puede ayudarte a validar los enlaces de tu documentación. Para identificar enlaces rotos, usa el siguiente comando:
 
 ```bash
 mint broken-links
@@ -80,7 +80,7 @@ Si el despliegue se realiza correctamente, deberías ver lo siguiente:
   ## Formato del código
 </div>
 
-Te sugerimos usar extensiones en tu IDE para reconocer y dar formato a MDX. Si usas VSCode, considera la [extensión de MDX para VSCode](https://marketplace.visualstudio.com/items?itemName=unifiedjs.vscode-mdx) para el resaltado de sintaxis y [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) para dar formato al código.
+Recomendamos usar extensiones en tu IDE para reconocer y dar formato a MDX. Si usas VS Code, prueba la [extensión de MDX para VSCode](https://marketplace.visualstudio.com/items?itemName=unifiedjs.vscode-mdx) para el resaltado de sintaxis y [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) para dar formato al código.
 
 <div id="troubleshooting">
   ## Solución de problemas
@@ -88,7 +88,7 @@ Te sugerimos usar extensiones en tu IDE para reconocer y dar formato a MDX. Si u
 
 <AccordionGroup>
   <Accordion title="Error: No se pudo cargar el módulo &#x22;sharp&#x22; con el entorno de ejecución darwin-arm64">
-    Esto puede deberse a una versión desactualizada de Node. Prueba lo siguiente:
+    Esto suele deberse a una versión desactualizada de Node. Prueba lo siguiente:
 
     1. Elimina la versión de la CLI instalada actualmente: `npm remove -g mint`
     2. Actualiza a Node v19 o una versión posterior.

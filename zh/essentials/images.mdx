@@ -14,19 +14,19 @@ icon: 'image'
   ### 使用 Markdown
 </div>
 
-[Markdown 语法](https://www.markdownguide.org/basic-syntax/#images)支持你使用以下代码添加图片
+[Markdown 语法](https://www.markdownguide.org/basic-syntax/#images)支持你使用以下格式添加图片：
 
 ```md
 ![title](/path/image.jpg)
 ```
 
-注意，图片文件大小必须小于 5MB。否则，我们建议将其托管到 [Cloudinary](https://cloudinary.com/) 或 [S3](https://aws.amazon.com/s3/) 之类的服务上。然后，您就可以使用该 URL 进行嵌入。
+注意，图片文件大小必须小于 5MB。对于更大的文件，我们建议将其托管在 [Cloudinary](https://cloudinary.com/) 或 [S3](https://aws.amazon.com/s3/) 等服务上，并嵌入该 URL。
 
 <div id="using-embeds">
   ### 使用嵌入内容
 </div>
 
-如果你想让图片支持更多自定义选项，也可以使用[嵌入内容](/zh/writing-content/embed)来添加图片
+如果你想更灵活地控制图片样式，可以使用[嵌入内容](/zh/writing-content/embed)：
 
 ```html
 <img height="200" src="/path/image.jpg" />
@@ -41,7 +41,7 @@ icon: 'image'
 <br />
 
 <Tip>
-  Mintlify 支持在 Markdown 中使用 [HTML 标签](https://www.markdownguide.org/basic-syntax/#html)。如果你更习惯使用 HTML 标签而不是 Markdown 语法，这会很方便，也能让你更灵活地创建文档。
+  Mintlify 支持在 Markdown 中使用 [HTML 标签](https://www.markdownguide.org/basic-syntax/#html)，在 Markdown 语法不够用时为你提供充分的灵活性。
 </Tip>
 
 <div id="iframes">
