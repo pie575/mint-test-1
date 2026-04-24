@@ -101,7 +101,7 @@ Todos los sitios de Mintlify requieren un archivo `docs.json` con la configuraci
     </ResponseField>
 
     <ResponseField name="url" type="string">
-      La URL a la que dirige el botón al hacer clic. Ejemplo: `https://mintlify.com/docs`
+      La URL a la que dirige el botón. Ejemplo: `https://mintlify.com/docs`
     </ResponseField>
   </Expandable>
 </ResponseField>
@@ -205,8 +205,7 @@ Todos los sitios de Mintlify requieren un archivo `docs.json` con la configuraci
 
   <Expandable title="API">
     <ResponseField name="baseUrl" type="string">
-      La URL base de todos los endpoints de la API. Si `baseUrl` es un arreglo, se habilitarán varias opciones de URL base
-      entre las que el usuario podrá alternar.
+      La URL base de todos los endpoints de la API. Si `baseUrl` es un arreglo, los usuarios pueden alternar entre varias opciones de URL base.
     </ResponseField>
 
     <ResponseField name="auth" type="Auth">
@@ -222,9 +221,9 @@ Todos los sitios de Mintlify requieren un archivo `docs.json` con la configuraci
         </ResponseField>
 
         <ResponseField name="inputPrefix" type="string">
-          El valor predeterminado pensado para usarse como prefijo del campo de entrada de autenticación.
+          El prefijo predeterminado del campo de entrada de autenticación.
 
-          P. ej., un `inputPrefix` de `AuthKey` hará que el valor de entrada predeterminado del campo de autenticación sea `AuthKey`.
+          P. ej., un `inputPrefix` de `AuthKey` rellena previamente el campo de autenticación con `AuthKey`.
         </ResponseField>
       </Expandable>
     </ResponseField>
@@ -271,7 +270,7 @@ Todos los sitios de Mintlify requieren un archivo `docs.json` con la configuraci
 </ResponseField>
 
 <ResponseField name="footerSocials" type="FooterSocials">
-  Un objeto de cuentas de redes sociales en el que el par clave:propiedad representa la plataforma social y la URL de la cuenta.
+  Un objeto de cuentas de redes sociales donde cada par clave-valor asigna una plataforma a su URL.
 
   Ejemplo:
 
@@ -298,7 +297,7 @@ Todos los sitios de Mintlify requieren un archivo `docs.json` con la configuraci
 </ResponseField>
 
 <ResponseField name="feedback" type="Feedback">
-  Configuración para habilitar los botones de comentarios
+  Configura los botones de comentarios en las páginas de documentación
 
   <Expandable title="Feedback">
     <ResponseField name="suggestEdit" type="boolean" default="false">
@@ -343,6 +342,6 @@ Todos los sitios de Mintlify requieren un archivo `docs.json` con la configuraci
 </ResponseField>
 
 <ResponseField name="backgroundImage" type="string">
-  Una imagen de fondo que se mostrará detrás de todas las páginas. Consulta el ejemplo con
+  Una imagen de fondo que se muestra detrás de cada página. Consulta ejemplos en
   [Infisical](https://infisical.com/docs) y [FRPC](https://frpc.io).
 </ResponseField>
