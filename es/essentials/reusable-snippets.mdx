@@ -1,6 +1,6 @@
 ---
-title: "Fragmentos reutilizables"
-description: "Crea fragmentos reutilizables y personalizados para mantener el contenido sincronizado"
+título: "Fragmentos reutilizables"
+description: "Crea fragmentos personalizados y reutilizables para mantener el contenido sincronizado"
 icon: "recycle"
 ---
 
@@ -12,12 +12,12 @@ import SnippetIntro from '/snippets/es/snippet-intro.mdx';
   ## Crear un fragmento personalizado
 </div>
 
-**Requisito previo**: Debes crear el archivo del fragmento en el directorio `snippets`.
+**Requisito previo**: El archivo del fragmento debe estar en el directorio `snippets`.
 
 <Note>
   Cualquier página del directorio `snippets` se tratará como un fragmento y no
   se renderizará como una página independiente. Si quieres crear una página independiente
-  a partir del fragmento, importa el fragmento en otro archivo y úsalo como
+  a partir del fragmento, importa el fragmento en otro archivo y úsalo como un
   componente.
 </Note>
 
@@ -25,9 +25,9 @@ import SnippetIntro from '/snippets/es/snippet-intro.mdx';
   ### Exportación predeterminada
 </div>
 
-1. Agrega al archivo del fragmento el contenido que quieras reutilizar en varios
-   lugares. Opcionalmente, puedes añadir variables que se puedan completar mediante props
-   al importar el fragmento.
+1. Agrega al archivo de fragmento el contenido que quieras reutilizar en varias
+   ubicaciones. También puedes agregar variables opcionales que se rellenan mediante props
+   al importarlo.
 
 ```mdx snippets/my-snippet.mdx
 Hello world! This is my content I want to reuse across pages. My keyword of the
@@ -35,8 +35,8 @@ day is {word}.
 ```
 
 <Warning>
-  El contenido que quieras reutilizar debe estar dentro del directorio `snippets`
-  para que la importación funcione.
+  El contenido que quieras reutilizar debe estar dentro del directorio `snippets` para
+  que la importación funcione.
 </Warning>
 
 2. Importa el fragmento en el archivo de destino.
@@ -85,8 +85,8 @@ Hello, my name is {myName} and I like {myObject.fruit}.
   ### Componentes reutilizables
 </div>
 
-1. Dentro de tu archivo de fragmento, crea un componente que reciba props exportándolo
-   como una función flecha.
+1. Dentro del archivo de tu fragmento, crea un componente que acepte props exportando
+   una función flecha.
 
 ```mdx snippets/custom-component.mdx
 export const MyComponent = ({ title }) => (
@@ -98,11 +98,11 @@ export const MyComponent = ({ title }) => (
 ```
 
 <Warning>
-  MDX no se compila dentro del cuerpo de una función de flecha. Usa la sintaxis
-  HTML cuando puedas o recurre a una exportación predeterminada si necesitas usar MDX.
+  MDX no se compila dentro del cuerpo de una función de flecha. Usa la
+  sintaxis HTML siempre que puedas, o una exportación predeterminada si necesitas usar MDX.
 </Warning>
 
-2. Importa el fragmento en tu archivo de destino y pásale las props
+2. Importa el fragmento en el archivo de destino y pásale las props
 
 ```mdx destination-file.mdx
 ---

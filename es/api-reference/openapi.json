@@ -2,7 +2,7 @@
   "openapi": "3.1.0",
   "info": {
     "title": "OpenAPI Plant Store",
-    "description": "Una API de ejemplo que usa una tienda de plantas para demostrar funciones de la especificación OpenAPI",
+    "description": "Una API de ejemplo que usa una tienda de plantas para demostrar las funciones de la especificación OpenAPI",
     "license": {
       "name": "MIT"
     },
@@ -35,7 +35,7 @@
         ],
         "responses": {
           "200": {
-            "description": "Respuesta de la planta",
+            "description": "Respuesta de planta",
             "content": {
               "application/json": {
                 "schema": {
@@ -74,7 +74,7 @@
         },
         "responses": {
           "200": {
-            "description": "respuesta de la planta",
+            "description": "respuesta de planta",
             "content": {
               "application/json": {
                 "schema": {
@@ -98,7 +98,7 @@
     },
     "/plants/{id}": {
       "delete": {
-        "description": "Elimina una planta según el ID proporcionado",
+        "description": "Elimina una sola planta según el ID proporcionado",
         "parameters": [
           {
             "name": "id",
@@ -133,7 +133,7 @@
   "webhooks": {
     "/plant/webhook": {
       "post": {
-        "description": "Información sobre una nueva planta añadida a la tienda",
+        "description": "Información sobre una planta nueva añadida a la tienda",
         "requestBody": {
           "description": "Planta añadida a la tienda",
           "content": {

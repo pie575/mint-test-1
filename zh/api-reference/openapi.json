@@ -2,7 +2,7 @@
   "openapi": "3.1.0",
   "info": {
     "title": "OpenAPI Plant Store",
-    "description": "一个示例 API，使用植物商店来演示 OpenAPI 规范中的各项功能",
+    "description": "一个示例 API，以植物商店为例，演示 OpenAPI 规范的功能",
     "license": {
       "name": "MIT"
     },
@@ -21,7 +21,7 @@
   "paths": {
     "/plants": {
       "get": {
-        "description": "返回用户有权访问的系统中的所有植物",
+        "description": "返回用户有权访问的系统中所有植物",
         "parameters": [
           {
             "name": "limit",
@@ -133,7 +133,7 @@
   "webhooks": {
     "/plant/webhook": {
       "post": {
-        "description": "有关添加到商店中的新植物的信息",
+        "description": "添加到商店中的新植物信息",
         "requestBody": {
           "description": "植物已添加到商店",
           "content": {
@@ -146,7 +146,7 @@
         },
         "responses": {
           "200": {
-            "description": "返回 200 状态码，表示数据已成功接收"
+            "description": "返回 200 状态码，表示已成功接收数据"
           }
         }
       }
