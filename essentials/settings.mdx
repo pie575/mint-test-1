@@ -90,7 +90,7 @@ Example: `mintlify`
     Example: `Contact us`
     </ResponseField>
     <ResponseField name="url" type="string">
-    The url once you click on the button. Example: `https://mintlify.com/docs`
+    The URL the button links to. Example: `https://mintlify.com/docs`
     </ResponseField>
 
   </Expandable>
@@ -182,8 +182,7 @@ Example: `mintlify`
   Configuration for API settings. Learn more about API pages at [API Components](/api-playground/demo).
   <Expandable title="API">
     <ResponseField name="baseUrl" type="string">
-      The base url for all API endpoints. If `baseUrl` is an array, it will enable for multiple base url
-      options that the user can toggle.
+      The base URL for all API endpoints. If `baseUrl` is an array, users can toggle between multiple base URL options.
     </ResponseField>
 
     <ResponseField name="auth" type="Auth">
@@ -197,9 +196,9 @@ Example: `mintlify`
         If method is `basic`, the format should be `[usernameName]:[passwordName]`
         </ResponseField>
         <ResponseField name="inputPrefix" type="string">
-        The default value that's designed to be a prefix for the authentication input field.
+        The default prefix for the authentication input field.
 
-        E.g. If an `inputPrefix` of `AuthKey` would inherit the default input result of the authentication field as `AuthKey`.
+        For example, an `inputPrefix` of `AuthKey` pre-fills the authentication field with `AuthKey`.
         </ResponseField>
       </Expandable>
     </ResponseField>
@@ -245,7 +244,7 @@ Example: `mintlify`
 </ResponseField>
 
 <ResponseField name="footerSocials" type="FooterSocials">
-  An object of social media accounts where the key:property pair represents the social media platform and the account url.
+  An object of social media accounts where each key-value pair maps a platform to its URL.
   
   Example: 
   ```json
@@ -269,7 +268,7 @@ Example: `mintlify`
 </ResponseField>
 
 <ResponseField name="feedback" type="Feedback">
-  Configurations to enable feedback buttons
+  Configure feedback buttons on documentation pages
 
   <Expandable title="Feedback">
     <ResponseField name="suggestEdit" type="boolean" default="false">
@@ -313,6 +312,6 @@ Example: `mintlify`
 </ResponseField>
 
 <ResponseField name="backgroundImage" type="string">
-  A background image to be displayed behind every page. See example with
+  A background image displayed behind every page. See examples at
   [Infisical](https://infisical.com/docs) and [FRPC](https://frpc.io).
 </ResponseField>
