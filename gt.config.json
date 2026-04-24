@@ -98,7 +98,7 @@
     "es",
     "zh"
   ],
-  "baseUrl": "http://localhost:10000",
+  "baseUrl": "https://<whoami>-api.gt-proxy.com",
   "defaultLocale": "en",
   "$schema": "https://assets.gtx.dev/config-schema.json"
 }
