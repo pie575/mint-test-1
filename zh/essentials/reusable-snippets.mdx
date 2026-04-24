@@ -22,7 +22,7 @@ import SnippetIntro from '/snippets/zh/snippet-intro.mdx';
   ### 默认导出
 </div>
 
-1. 将想要在多个位置重复使用的内容添加到代码片段文件中。你也可以添加变量，以便在导入该代码片段时通过 props 传入值。
+1. 将想要在多个位置重复使用的内容添加到代码片段文件中。你也可以选择添加变量，以便在导入时通过 props 传入值。
 
 ```mdx snippets/my-snippet.mdx
 Hello world! This is my content I want to reuse across pages. My keyword of the
@@ -80,7 +80,7 @@ Hello, my name is {myName} and I like {myObject.fruit}.
   ### 可复用组件
 </div>
 
-1. 在代码片段文件中，以箭头函数的形式导出组件，创建一个可接收 props 的组件。
+1. 在代码片段文件中，通过导出一个箭头函数来创建一个可接收 props 的组件。
 
 ```mdx snippets/custom-component.mdx
 export const MyComponent = ({ title }) => (

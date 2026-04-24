@@ -7,12 +7,12 @@
       "versionId": "2d5a664b4ccdd9168f5e4211c4bef725562655257cee840099aba530d4429e00",
       "translations": {
         "es": {
-          "updatedAt": "2026-04-24T22:58:39.501Z",
+          "updatedAt": "2026-04-24T23:02:44.439Z",
           "fileName": "snippets/es/snippet-intro.mdx",
           "postProcessHash": "092384f7762ae07854603bce732499ae6b9d3bfa6dc6eb7c7cc9c3f2baf6a44b"
         },
         "zh": {
-          "updatedAt": "2026-04-24T22:58:39.502Z",
+          "updatedAt": "2026-04-24T23:02:44.440Z",
           "fileName": "snippets/zh/snippet-intro.mdx",
           "postProcessHash": "48ad9e7a3a1687dbcd733d10eabbfd1377b003e55b3219129c9be33bd9e1abea"
         }
@@ -25,12 +25,12 @@
       "versionId": "d7e1a2fb1234886828a0ec9ae59cbd328d26f20482847c62215a9886909acae2",
       "translations": {
         "es": {
-          "updatedAt": "2026-04-24T22:58:39.514Z",
+          "updatedAt": "2026-04-24T23:02:44.452Z",
           "fileName": "es/api-reference/endpoint/create.mdx",
           "postProcessHash": "9cef73e7758c74e75d4b65e91b9218eb81008d15a693dd294d1da48871b99229"
         },
         "zh": {
-          "updatedAt": "2026-04-24T22:58:39.515Z",
+          "updatedAt": "2026-04-24T23:02:44.452Z",
           "fileName": "zh/api-reference/endpoint/create.mdx",
           "postProcessHash": "7e3148f859dfc8fc5d2b82b8c9cd184c2faf48dc4bc03d4826132e4e13eb6fa8"
         }
@@ -43,12 +43,12 @@
       "versionId": "39e81cd3689b8472a52a2be86885971f93be82ed4c5c75df86ca59737199f42a",
       "translations": {
         "zh": {
-          "updatedAt": "2026-04-24T22:58:39.513Z",
+          "updatedAt": "2026-04-24T23:02:44.451Z",
           "fileName": "zh/api-reference/endpoint/webhook.mdx",
           "postProcessHash": "ecee2be6824bb3d89758274f84d234d1b76026d8dc7fe044e2b4a6bee0ce7177"
         },
         "es": {
-          "updatedAt": "2026-04-24T22:58:39.515Z",
+          "updatedAt": "2026-04-24T23:02:44.453Z",
           "fileName": "es/api-reference/endpoint/webhook.mdx",
           "postProcessHash": "b4082670ab5ad0d05ef18c46048998727c06fbf5bc0bdf35aa7bcbe0984b0f4c"
         }
@@ -61,12 +61,12 @@
       "versionId": "4a4ef9ae8c382ae06785c1fc58187ce13ca718bc1882aa72760e49ce6e852b26",
       "translations": {
         "es": {
-          "updatedAt": "2026-04-24T22:58:39.515Z",
+          "updatedAt": "2026-04-24T23:02:44.453Z",
           "fileName": "es/api-reference/endpoint/delete.mdx",
           "postProcessHash": "911d04daad19d067f9257d10bffe09819b9d0c288e5bc44016147ba1068cae23"
         },
         "zh": {
-          "updatedAt": "2026-04-24T22:58:39.516Z",
+          "updatedAt": "2026-04-24T23:02:44.453Z",
           "fileName": "zh/api-reference/endpoint/delete.mdx",
           "postProcessHash": "31ce3a605282a4b0fc95b9180247ff002d53dbfa57c78327897f423441bd1431"
         }
@@ -79,12 +79,12 @@
       "versionId": "f0c624dae162c5875fb3be3a5e7fc9af72c365b0fa3d465e1f756834ae7a4fe7",
       "translations": {
         "zh": {
-          "updatedAt": "2026-04-24T22:58:39.513Z",
+          "updatedAt": "2026-04-24T23:02:44.451Z",
           "fileName": "zh/api-reference/endpoint/get.mdx",
           "postProcessHash": "93074651ea399389807139ceac454f3dad60c890ab2307c1593dba6b37518c44"
         },
         "es": {
-          "updatedAt": "2026-04-24T22:58:39.514Z",
+          "updatedAt": "2026-04-24T23:02:44.452Z",
           "fileName": "es/api-reference/endpoint/get.mdx",
           "postProcessHash": "29e8175b799adc646d6f1f4a97a36c17f90f24b29ad357e05c463925877c2dd0"
         }
@@ -114,12 +114,12 @@
       "versionId": "248dd3f6f84e49922d09cb23e96c2e5d13434d72f4855179a70a0dafdd2e462d",
       "translations": {
         "es": {
-          "updatedAt": "2026-04-24T22:58:39.522Z",
+          "updatedAt": "2026-04-24T23:02:44.458Z",
           "fileName": "es/ai-tools/windsurf.mdx",
           "postProcessHash": "d10b1a89fb41dfbda3fd6a891271902cfda1f9d1fa362a246d7eb1ba3e90377a"
         },
         "zh": {
-          "updatedAt": "2026-04-24T22:58:39.522Z",
+          "updatedAt": "2026-04-24T23:02:44.458Z",
           "fileName": "zh/ai-tools/windsurf.mdx",
           "postProcessHash": "fb03c09c80da7d8272e73bb2e5a32f187df170840fc73b26e554152b23648e87"
         }
@@ -132,12 +132,12 @@
       "versionId": "ed1ebafb55ad544d48012996b10e2883136b9fe2f1e014a885586683785eb175",
       "translations": {
         "zh": {
-          "updatedAt": "2026-04-24T22:58:39.521Z",
+          "updatedAt": "2026-04-24T23:02:44.457Z",
           "fileName": "zh/ai-tools/claude-code.mdx",
           "postProcessHash": "ab1f046cb4c5b26f626091cd4ad1f8d7d6c9d874a6dc236d15d674ea0aa9af78"
         },
         "es": {
-          "updatedAt": "2026-04-24T22:58:39.521Z",
+          "updatedAt": "2026-04-24T23:02:44.458Z",
           "fileName": "es/ai-tools/claude-code.mdx",
           "postProcessHash": "3a5f4ffa4aa397fc4f2b3ac70e6b94d25446b2449c79d876fb88846d1e0b60d1"
         }
@@ -150,12 +150,12 @@
       "versionId": "cc359086ae1870e9e9535f293af6c76d207b0b40e99fe94f16b2da7784517d18",
       "translations": {
         "zh": {
-          "updatedAt": "2026-04-24T22:58:39.519Z",
+          "updatedAt": "2026-04-24T23:02:44.456Z",
           "fileName": "zh/essentials/code.mdx",
           "postProcessHash": "6020da37de658db7aa928507f701586b663d349a026813367bf5e3309031e289"
         },
         "es": {
-          "updatedAt": "2026-04-24T22:58:39.520Z",
+          "updatedAt": "2026-04-24T23:02:44.457Z",
           "fileName": "es/essentials/code.mdx",
           "postProcessHash": "42dff50ce8ab3a2dd3431fbe4d1eab7d39025a0e0869910f130a364be892b381"
         }
@@ -168,12 +168,12 @@
       "versionId": "1aac0c2b6966751f4d4336a63cce5ec5e0eb0437e3621d0b2e1000f0262864e5",
       "translations": {
         "zh": {
-          "updatedAt": "2026-04-24T22:58:39.519Z",
+          "updatedAt": "2026-04-24T23:02:44.455Z",
           "fileName": "zh/ai-tools/cursor.mdx",
           "postProcessHash": "f39da7dcd25470d6dd8878ef109043a21ae98c4f3988b676ee59b4b8150d5c6b"
         },
         "es": {
-          "updatedAt": "2026-04-24T22:58:39.520Z",
+          "updatedAt": "2026-04-24T23:02:44.457Z",
           "fileName": "es/ai-tools/cursor.mdx",
           "postProcessHash": "fbbfa34511c8e47bf65a81a456871e8d5bfa075d312d676cc36132e6a3bdb1ab"
         }
@@ -186,12 +186,12 @@
       "versionId": "387beca966a6e46d9822efb7357ed206d2f6817eb2f67547bcf7507ec28a861f",
       "translations": {
         "es": {
-          "updatedAt": "2026-04-24T22:58:39.509Z",
+          "updatedAt": "2026-04-24T23:02:44.447Z",
           "fileName": "es/api-reference/openapi.json",
           "postProcessHash": "921ced7da968696cfc7c44f1fc444a6922e9160063b64b838165467650d91137"
         },
         "zh": {
-          "updatedAt": "2026-04-24T22:58:39.510Z",
+          "updatedAt": "2026-04-24T23:02:44.450Z",
           "fileName": "zh/api-reference/openapi.json",
           "postProcessHash": "f534ec3db32b10b5487fd79758b9de6cc26db5f2163e950a1f07ecb057aa2dc4"
         }
@@ -204,12 +204,12 @@
       "versionId": "60da51b46e4d11a81858adcef7c6286e6c6051d1ba23066d74cdc2eef71a3873",
       "translations": {
         "es": {
-          "updatedAt": "2026-04-24T22:58:39.526Z",
+          "updatedAt": "2026-04-24T23:02:44.461Z",
           "fileName": "es/api-reference/introduction.mdx",
           "postProcessHash": "a28daae1ede219fe6fcee2058812b57f07d2600e11785462e27bee0cd8cce46e"
         },
         "zh": {
-          "updatedAt": "2026-04-24T22:58:39.528Z",
+          "updatedAt": "2026-04-24T23:02:44.462Z",
           "fileName": "zh/api-reference/introduction.mdx",
           "postProcessHash": "ecc2a51f39953c66f1e0f126fa18d6674597f2c06e90d34a7f394f7be1ee7011"
         }
@@ -222,12 +222,12 @@
       "versionId": "7358fafaf89edc54f4f884ade69f6637b30f22f48ad7bd5078136db881cc1b57",
       "translations": {
         "es": {
-          "updatedAt": "2026-04-24T22:58:39.523Z",
+          "updatedAt": "2026-04-24T23:02:44.459Z",
           "fileName": "es/quickstart.mdx",
           "postProcessHash": "4976ff1d0ca1c2dd3711ae11ab7203efae0397e8c06a65ee2061f308dc381446"
         },
         "zh": {
-          "updatedAt": "2026-04-24T22:58:39.524Z",
+          "updatedAt": "2026-04-24T23:02:44.459Z",
           "fileName": "zh/quickstart.mdx",
           "postProcessHash": "a0b47a83a50a0eeefbd18081e81b4eee355446103c463f6b4a3a1d7e7eff5f46"
         }
@@ -240,12 +240,12 @@
       "versionId": "d3c45f20ff16c0e205191c2116c1c73390fd62e921fc2645e97d5c9737a039d1",
       "translations": {
         "zh": {
-          "updatedAt": "2026-04-24T22:58:39.527Z",
+          "updatedAt": "2026-04-24T23:02:44.461Z",
           "fileName": "zh/development.mdx",
           "postProcessHash": "ba5580920a9387663ea4274f5985a14b841dd9828f6b134c3924ffb8cf194733"
         },
         "es": {
-          "updatedAt": "2026-04-24T22:58:39.527Z",
+          "updatedAt": "2026-04-24T23:02:44.462Z",
           "fileName": "es/development.mdx",
           "postProcessHash": "e3faaf2e91db01c41021d8d4091292b20dfa2fce9be3430a7e04d1edad497837"
         }
@@ -258,12 +258,12 @@
       "versionId": "fd491222b9588f736ccc7f141cda817db29ee7a77decc90fd1e4218eac96d8a7",
       "translations": {
         "es": {
-          "updatedAt": "2026-04-24T22:58:39.526Z",
+          "updatedAt": "2026-04-24T23:02:44.460Z",
           "fileName": "es/essentials/navigation.mdx",
           "postProcessHash": "c2b385c11419def3382939bf6665e6a7e3a09373548e6d6a91fec6327f8a42a9"
         },
         "zh": {
-          "updatedAt": "2026-04-24T22:58:39.526Z",
+          "updatedAt": "2026-04-24T23:02:44.461Z",
           "fileName": "zh/essentials/navigation.mdx",
           "postProcessHash": "ee192fac70b37128b2485008bd53b00796a50b64438362f0422b3f12b76b7510"
         }
@@ -276,12 +276,12 @@
       "versionId": "6566c861906636eb40fc456b964f9afc13e53abd5be97c0207760614fde4d19b",
       "translations": {
         "zh": {
-          "updatedAt": "2026-04-24T22:58:39.521Z",
+          "updatedAt": "2026-04-24T23:02:44.458Z",
           "fileName": "zh/essentials/images.mdx",
           "postProcessHash": "e754d9b0895ca99bef41688aeab934d783e1ffac52dc3f3b3c6b145394a3e6ab"
         },
         "es": {
-          "updatedAt": "2026-04-24T22:58:39.523Z",
+          "updatedAt": "2026-04-24T23:02:44.459Z",
           "fileName": "es/essentials/images.mdx",
           "postProcessHash": "18625d2c421685788b7549ebde7c9da8c8004a88cf488d46d081360b413ebbcd"
         }
@@ -291,17 +291,17 @@
     },
     {
       "fileId": "2308615ee2278ea6a11fc5396b3d5ee942f17db33b6f0e7139236eeeaca2e162",
-      "versionId": "b8f77548033fd3971cb6e52796af295299b150e8dd93b0d3a4e833b1b951368f",
+      "versionId": "921b8757324282580feacc4bb1ab83cb87031a7fa731c775e9688a556dcf81ea",
       "translations": {
-        "es": {
-          "updatedAt": "2026-04-24T22:58:39.520Z",
-          "fileName": "es/index.mdx",
-          "postProcessHash": "ac253bc9fa217a66a04c020016ed4b787ad6e7787b0dee5a785bbdc601679cc3"
-        },
         "zh": {
-          "updatedAt": "2026-04-24T22:58:39.521Z",
+          "updatedAt": "2026-04-24T23:02:44.462Z",
           "fileName": "zh/index.mdx",
-          "postProcessHash": "738f1ffceb9157b50ba05ec6bd42d12bcfb09c35c1f0f3fd213cf8db9e132bf2"
+          "postProcessHash": "0dcb2ef86ce2e11900916332764ffa664305c26856a9f01752d8d6414c652b76"
+        },
+        "es": {
+          "updatedAt": "2026-04-24T23:02:44.464Z",
+          "fileName": "es/index.mdx",
+          "postProcessHash": "7fef1bf8c7b9b2e8870c8691d5d9ad71e03c6275c60261d7504225de1ab2c548"
         }
       },
       "fileName": "index.mdx",
@@ -309,17 +309,17 @@
     },
     {
       "fileId": "398f135a48c8a0864fbbadd57cd59a95c7de8f717e4600a1b5daf22b7c8f3351",
-      "versionId": "55c486b84532e042098dd153a16b12124ade72cdec8c2877562760e3f96d9329",
+      "versionId": "ab870f324882e46673150f2dc306df45d24ce20ef24616788c53a808cd0f6d71",
       "translations": {
         "es": {
-          "updatedAt": "2026-04-24T22:58:39.516Z",
+          "updatedAt": "2026-04-24T23:02:44.463Z",
           "fileName": "es/essentials/reusable-snippets.mdx",
-          "postProcessHash": "3341a084081b79cfdb7a8fc588d1ddb7762487e3f7a92a2d84dde46d8723670d"
+          "postProcessHash": "7e803b7acdb2a103a9c6ef143ba953f6285b17f2edcd829d0a74a9c796d5e094"
         },
         "zh": {
-          "updatedAt": "2026-04-24T22:58:39.519Z",
+          "updatedAt": "2026-04-24T23:02:44.463Z",
           "fileName": "zh/essentials/reusable-snippets.mdx",
-          "postProcessHash": "c38c3556db3177f74fcedda55ea0356432735849f501c4e7afbdb11ff224fdb5"
+          "postProcessHash": "de2bba6a3813cd19a885e0d35508c4079278077dd97a00fe517e3e5932cac8e7"
         }
       },
       "fileName": "essentials/reusable-snippets.mdx",
@@ -330,12 +330,12 @@
       "versionId": "aee44a8698ad3a0c8ccc5e0b33f1d4e8434b6ca517f6caabf70e6d8d5a0f3c86",
       "translations": {
         "es": {
-          "updatedAt": "2026-04-24T22:58:39.525Z",
+          "updatedAt": "2026-04-24T23:02:44.460Z",
           "fileName": "es/essentials/settings.mdx",
           "postProcessHash": "f19fe645a571df9b1d57642cbf9f47d8b9a3dca45057246cf7173bd6af79d0f0"
         },
         "zh": {
-          "updatedAt": "2026-04-24T22:58:39.525Z",
+          "updatedAt": "2026-04-24T23:02:44.460Z",
           "fileName": "zh/essentials/settings.mdx",
           "postProcessHash": "4167a11c0b8de398b1e7d64b0dacf2b657d9b4e3d9e8a39cbe5893ac96961053"
         }
@@ -345,17 +345,17 @@
     },
     {
       "fileId": "693e696f0c0cfbba647f7c27058078e03ceb00de68352f64f1c0fd8bc1efebad",
-      "versionId": "a919545c902a62fd71d9fc4ae6cebe1947ba088b527725b693ebcbf579828dfb",
+      "versionId": "dc1291c9028926a4cf111a42995a6e50c586b6cb63bf6d9d02aecd4664ac42cc",
       "translations": {
-        "zh": {
-          "updatedAt": "2026-04-24T22:58:39.524Z",
-          "fileName": "zh/essentials/markdown.mdx",
-          "postProcessHash": "3a0f426d3e62fe8ca671ac57aca6900cba62d99890122ad1630f903fae0ec4e5"
-        },
         "es": {
-          "updatedAt": "2026-04-24T22:58:39.524Z",
+          "updatedAt": "2026-04-24T23:02:44.463Z",
           "fileName": "es/essentials/markdown.mdx",
-          "postProcessHash": "3417dda57be7491d86fb7819564bba6637836bbb79dafc64ecdf4f00ad698cd0"
+          "postProcessHash": "44537be11fef1a5fb3a0598d21b994f2ea56e8cdbbb0b08cfae5ad4f8afe1400"
+        },
+        "zh": {
+          "updatedAt": "2026-04-24T23:02:44.463Z",
+          "fileName": "zh/essentials/markdown.mdx",
+          "postProcessHash": "17ad67e49ed35800e876578139cc293555e8ddfb1e493cc39332d72f0685ac62"
         }
       },
       "fileName": "essentials/markdown.mdx",
