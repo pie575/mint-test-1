@@ -99,7 +99,7 @@ Example: `mintlify`
 <ResponseField name="topbarCtaButton" type="Call to Action">
   <Expandable title="Topbar Call to Action">
     <ResponseField name="type" type={'"link" or "github"'} default="link">
-    Link shows a button. GitHub shows the repo information at the url provided including the number of GitHub stars.
+    `link` displays a button. `github` shows repository info including the star count.
     </ResponseField>
     <ResponseField name="url" type="string">
     If `link`: What the button links to.
@@ -119,7 +119,7 @@ Example: `mintlify`
 </ResponseField>
 
 <ResponseField name="anchors" type="Anchor[]">
-  An array of the anchors, includes the `icon`, `color`, and `url`.
+  An array of anchors with their `icon`, `color`, and `url`.
   <Expandable title="Anchor">
     <ResponseField name="icon" type="string">
     The [Font Awesome](https://fontawesome.com/search?q=heart) icon used to feature the anchor.
