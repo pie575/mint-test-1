@@ -244,7 +244,7 @@ Example: `mintlify`
 </ResponseField>
 
 <ResponseField name="footerSocials" type="FooterSocials">
-  An object of social media accounts where the key:property pair represents the social media platform and the account url.
+  An object of social media accounts where each key-value pair maps a platform to its URL.
   
   Example: 
   ```json
@@ -268,7 +268,7 @@ Example: `mintlify`
 </ResponseField>
 
 <ResponseField name="feedback" type="Feedback">
-  Configurations to enable feedback buttons
+  Configure feedback buttons on documentation pages
 
   <Expandable title="Feedback">
     <ResponseField name="suggestEdit" type="boolean" default="false">
@@ -312,6 +312,6 @@ Example: `mintlify`
 </ResponseField>
 
 <ResponseField name="backgroundImage" type="string">
-  A background image to be displayed behind every page. See example with
+  A background image displayed behind every page. See examples at
   [Infisical](https://infisical.com/docs) and [FRPC](https://frpc.io).
 </ResponseField>
