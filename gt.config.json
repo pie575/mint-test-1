@@ -98,7 +98,7 @@
     "es",
     "zh"
   ],
-  "baseUrl": "https://<whoami>-api.gt-proxy.com",
+  "baseUrl": "https://sherell-equisetic-philip.ngrok-free.dev",
   "defaultLocale": "en",
   "$schema": "https://assets.gtx.dev/config-schema.json"
 }
