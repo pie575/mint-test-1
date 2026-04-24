@@ -16,7 +16,7 @@ Example: `mintlify`
 </ResponseField>
 
 <ResponseField name="navigation" type="Navigation[]" required>
-  An array of groups with all the pages within that group
+  An array of navigation groups and their pages
   <Expandable title="Navigation">
     <ResponseField name="group" type="string">
     The name of the group.
@@ -44,7 +44,7 @@ Example: `mintlify`
       Path to the logo in dark mode
     </ResponseField>
     <ResponseField name="href" type="string" default="/">
-      Where clicking on the logo links you to
+      URL the logo links to when clicked
     </ResponseField>
   </Expandable>
 </ResponseField>
