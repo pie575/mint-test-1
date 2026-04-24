@@ -1,6 +1,6 @@
 ---
-title: 'Sintaxis de Markdown'
-description: 'Texto, títulos y estilos en Markdown estándar'
+título: 'Sintaxis de Markdown'
+description: 'Texto, títulos y estilo en Markdown estándar'
 icon: 'text-size'
 ---
 
@@ -8,7 +8,7 @@ icon: 'text-size'
   ## Títulos
 </div>
 
-Se usan mejor para los encabezados de sección.
+Se usa principalmente para encabezados de sección.
 
 ```md
 <div id="titles">
@@ -21,7 +21,7 @@ Se usan mejor para los encabezados de sección.
   ### Subtítulos
 </div>
 
-Se usan mejor como encabezados de subsecciones.
+Se usan mejor en encabezados de subsecciones.
 
 ```md
 <div id="subtitles">
@@ -31,49 +31,49 @@ Se usan mejor como encabezados de subsecciones.
 ```
 
 <Tip>
-  Cada **título** y **subtítulo** crea un ancla y también aparece en la tabla de contenido de la derecha.
+  Cada **título** y **subtítulo** genera un ancla y aparece en la tabla de contenidos de la derecha.
 </Tip>
 
 <div id="text-formatting">
   ## Formato de texto
 </div>
 
-Admitimos la mayoría de los formatos de Markdown. Simplemente agrega `**`, `_` o `~` alrededor del texto para darle formato.
+Se admite la mayoría del formato estándar de Markdown. Añade `**`, `_` o `~` alrededor del texto para darle formato.
 
-| Estilo  | Cómo escribirlo   | Resultado   |
-| ------- | ----------------- | ----------- |
-| Negrita | `**bold**`        | **negrita** |
-| Cursiva | `_italic_`        | *cursiva*   |
-| Tachado | `~strikethrough~` | ~~tachado~~ |
+| Estilo  | Cómo escribirlo | Resultado   |
+| ------- | --------------- | ----------- |
+| Negrita | `**negrita**`   | **negrita** |
+| Cursiva | `_cursiva_`     | *cursiva*   |
+| Tachado | `~tachado~`     | ~~tachado~~ |
 
-Puedes combinarlos. Por ejemplo, escribe `**_bold and italic_**` para obtener texto en ***negrita y cursiva***.
+Puedes combinarlos. Por ejemplo, escribe `**_negrita y cursiva_**` para obtener texto en ***negrita y cursiva***.
 
-Debes usar HTML para escribir texto en superíndice y subíndice. Es decir, agrega `<sup>` o `<sub>` alrededor del texto.
+Para texto en superíndice y subíndice, usa etiquetas HTML. Envuelve el texto en `<sup>` o `<sub>`.
 
-| Tamaño de texto | Cómo escribirlo          | Resultado              |
-| --------------- | ------------------------ | ---------------------- |
-| Superíndice     | `<sup>superscript</sup>` | <sup>superíndice</sup> |
-| Subíndice       | `<sub>subscript</sub>`   | <sub>subíndice</sub>   |
+| Tamaño del texto | Cómo escribirlo          | Resultado              |
+| ---------------- | ------------------------ | ---------------------- |
+| Superíndice      | `<sup>superíndice</sup>` | <sup>superíndice</sup> |
+| Subíndice        | `<sub>subíndice</sub>`   | <sub>subíndice</sub>   |
 
 <div id="linking-to-pages">
   ## Enlaces a páginas
 </div>
 
-Puedes añadir un enlace escribiendo el texto entre `[]()`. Por ejemplo, escribirías `[link to google](https://google.com)` para crear [un enlace a Google](https://google.com).
+Puedes añadir un enlace escribiendo el texto entre `[]()`. Por ejemplo, escribirías `[enlace a Google](https://google.com)` para crear un [enlace a Google](https://google.com).
 
-Los enlaces a páginas de tu documentación deben ser relativos a la raíz. Básicamente, debes incluir la ruta completa de la carpeta. Por ejemplo, `[link to text](/writing-content/text)` enlaza a la página &quot;Text&quot; de nuestra sección de componentes.
+Los enlaces a páginas de tu documentación deben ser relativos a la raíz. Incluye la ruta completa de la carpeta — por ejemplo, `[enlace a texto](/writing-content/text)` enlaza a la página «Texto» de nuestra sección de componentes.
 
-Los enlaces relativos como `[link to text](../text)` tardarán más en abrirse porque no podemos optimizarlos tan fácilmente.
+Los enlaces relativos como `[enlace a texto](../text)` tardarán más en cargarse porque no se pueden optimizar con tanta facilidad.
 
 <div id="blockquotes">
-  ## Citas
+  ## Bloques de cita
 </div>
 
 <div id="singleline">
-  ### Una línea
+  ### Una sola línea
 </div>
 
-Para crear una cita en bloque, agrega un `>` delante de un párrafo.
+Para crear una cita en bloque, añade un `>` al principio de un párrafo.
 
 > Dorothy la siguió por muchas de las hermosas habitaciones de su castillo.
 
@@ -87,19 +87,19 @@ Para crear una cita en bloque, agrega un `>` delante de un párrafo.
 
 > Dorothy la siguió por muchas de las hermosas habitaciones de su castillo.
 >
-> La Bruja le ordenó limpiar las ollas y los calderos, barrer el suelo y mantener el fuego encendido con leña.
+> La Bruja le ordenó que limpiara las ollas y los calderos, barriera el suelo y mantuviera el fuego encendido con leña.
 
 ```md
-> Dorothy la siguió por muchas de las hermosas habitaciones de su castillo.
+> Dorothy la siguió por muchas de las hermosas salas de su castillo.
 >
-> La Bruja le mandó que limpiara las ollas y los calderos, barriera el suelo y mantuviera el fuego con leña.
+> La Bruja le ordenó limpiar las ollas y calderos, barrer el suelo y mantener el fuego avivado con leña.
 ```
 
 <div id="latex">
   ### LaTeX
 </div>
 
-Mintlify es compatible con [LaTeX](https://www.latex-project.org) a través del componente Latex.
+Mintlify admite [LaTeX](https://www.latex-project.org) a través del componente Latex.
 
 <Latex>8 x (vk x H1 - H2) = (0,1)</Latex>
 
