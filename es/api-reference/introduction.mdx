@@ -1,0 +1,33 @@
+---
+title: 'Introducción'
+description: 'Sección de ejemplo para mostrar los endpoints de la API'
+---
+
+<Note>
+  Si no quieres crear documentación de referencia de la API, puedes eliminar
+  esta sección quitando la carpeta api-reference.
+</Note>
+
+<div id="welcome">
+  ## Bienvenido
+</div>
+
+Hay dos formas de crear documentación de la API: [OpenAPI](https://mintlify.com/docs/api-playground/openapi/setup) y [componentes de MDX](https://mintlify.com/docs/api-playground/mdx/configuration). Para el kit de inicio, usamos la siguiente especificación de OpenAPI.
+
+<Card title="Endpoints de la tienda de plantas" icon="leaf" href="https://github.com/mintlify/starter/blob/main/api-reference/openapi.json">
+  Ver el archivo de especificación de OpenAPI
+</Card>
+
+<div id="authentication">
+  ## Autenticación
+</div>
+
+Todos los endpoints de la API se autentican con tokens Bearer, que se toman del archivo de especificación.
+
+```json
+"security": [
+  {
+    "bearerAuth": []
+  }
+]
+```

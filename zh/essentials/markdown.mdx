@@ -1,0 +1,108 @@
+---
+title: 'Markdown 语法'
+description: '标准 Markdown 中的文本、标题和样式设置'
+icon: 'text-size'
+---
+
+<div id="titles">
+  ## 标题
+</div>
+
+最适合用作章节标题。
+
+```md
+<div id="titles">
+  ## 标题
+</div>
+
+```
+
+<div id="subtitles">
+  ### 小标题
+</div>
+
+适合用作小节标题。
+
+```md
+<div id="subtitles">
+  ### 小标题
+</div>
+
+```
+
+<Tip>
+  每个**标题**和**副标题**都会生成一个锚点，并显示在右侧的目录中。
+</Tip>
+
+<div id="text-formatting">
+  ## 文本格式
+</div>
+
+我们支持大多数 Markdown 格式。只需在文本两侧加上 `**`、`_` 或 `~`，即可设置相应格式。
+
+| 样式  | 写法                | 效果      |
+| --- | ----------------- | ------- |
+| 粗体  | `**bold**`        | **粗体**  |
+| 斜体  | `_italic_`        | *斜体*    |
+| 删除线 | `~strikethrough~` | ~~删除线~~ |
+
+你也可以组合使用这些格式。例如，写成 `**_bold and italic_**`，就会得到 ***粗体和斜体*** 文本。
+
+你需要使用 HTML 来编写上标和下标。也就是说，在文本两侧加上 `<sup>` 或 `<sub>`。
+
+| 文本位置 | 写法                       | 效果            |
+| ---- | ------------------------ | ------------- |
+| 上标   | `<sup>superscript</sup>` | <sup>上标</sup> |
+| 下标   | `<sub>subscript</sub>`   | <sub>下标</sub> |
+
+<div id="linking-to-pages">
+  ## 链接到页面
+</div>
+
+你可以用 `[]()` 包裹文本来添加链接。例如，写成 `[link to google](https://google.com)` 就会显示为 [link to google](https://google.com)。
+
+文档中指向页面的链接需要使用相对于根目录的路径。也就是说，你应该包含完整的文件夹路径。例如，`[link to text](/writing-content/text)` 会链接到组件部分中的 “Text” 页面。
+
+像 `[link to text](../text)` 这样的相对链接打开速度会更慢，因为我们无法像处理前者那样轻松地优化它们。
+
+<div id="blockquotes">
+  ## 块引用
+</div>
+
+<div id="singleline">
+  ### 单行
+</div>
+
+要创建块引用，请在段落前添加一个 `>`。
+
+> 多萝西跟着她穿过了城堡里许多美丽的房间。
+
+```md
+> 多萝西跟着她穿过城堡里许多漂亮的房间。
+```
+
+<div id="multiline">
+  ### 多行
+</div>
+
+> 多萝西跟着她穿过城堡里许多美丽的房间。
+>
+> 女巫吩咐她刷洗锅碗和水壶、打扫地板，还要不断往炉火里添柴。
+
+```md
+> Dorothy 跟着她穿过她城堡里许多美丽的房间。
+>
+> 那女巫吩咐她擦洗锅子和水壶，打扫地板，还要不断往炉火里添柴。
+```
+
+<div id="latex">
+  ### LaTeX
+</div>
+
+Mintlify 支持通过 Latex 组件使用 [LaTeX](https://www.latex-project.org)。
+
+<Latex>8 x (vk x H1 - H2) = (0,1)</Latex>
+
+```md
+<Latex>8 x (vk x H1 - H2) = (0,1)</Latex>
+```

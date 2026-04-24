@@ -89,58 +89,58 @@
       {
         "tabs": [
           {
-            "tab": "Guides",
+            "tab": "Guías",
             "groups": [
               {
-                "group": "Getting started",
+                "group": "Primeros pasos",
                 "pages": [
-                  "index",
-                  "quickstart",
-                  "development"
+                  "es/index",
+                  "es/quickstart",
+                  "es/development"
                 ]
               },
               {
-                "group": "Customization",
+                "group": "Personalización",
                 "pages": [
-                  "essentials/settings",
-                  "essentials/navigation"
+                  "es/essentials/settings",
+                  "es/essentials/navigation"
                 ]
               },
               {
-                "group": "Writing content",
+                "group": "Creación de contenido",
                 "pages": [
-                  "essentials/markdown",
-                  "essentials/code",
-                  "essentials/images",
-                  "essentials/reusable-snippets"
+                  "es/essentials/markdown",
+                  "es/essentials/code",
+                  "es/essentials/images",
+                  "es/essentials/reusable-snippets"
                 ]
               },
               {
-                "group": "AI tools",
+                "group": "Herramientas de IA",
                 "pages": [
-                  "ai-tools/cursor",
-                  "ai-tools/claude-code",
-                  "ai-tools/windsurf"
+                  "es/ai-tools/cursor",
+                  "es/ai-tools/claude-code",
+                  "es/ai-tools/windsurf"
                 ]
               }
             ]
           },
           {
-            "tab": "API reference",
+            "tab": "Referencia de la API",
             "groups": [
               {
-                "group": "API documentation",
+                "group": "Documentación de la API",
                 "pages": [
-                  "api-reference/introduction"
+                  "es/api-reference/introduction"
                 ]
               },
               {
-                "group": "Endpoint examples",
+                "group": "Ejemplos de endpoints",
                 "pages": [
-                  "api-reference/endpoint/get",
-                  "api-reference/endpoint/create",
-                  "api-reference/endpoint/delete",
-                  "api-reference/endpoint/webhook"
+                  "es/api-reference/endpoint/get",
+                  "es/api-reference/endpoint/create",
+                  "es/api-reference/endpoint/delete",
+                  "es/api-reference/endpoint/webhook"
                 ]
               }
             ]
@@ -149,7 +149,7 @@
         "global": {
           "anchors": [
             {
-              "anchor": "Documentation",
+              "anchor": "Documentación",
               "href": "https://mintlify.com/docs",
               "icon": "book-open-cover"
             },
@@ -165,58 +165,58 @@
       {
         "tabs": [
           {
-            "tab": "Guides",
+            "tab": "指南",
             "groups": [
               {
-                "group": "Getting started",
+                "group": "快速开始",
                 "pages": [
-                  "index",
-                  "quickstart",
-                  "development"
+                  "zh/index",
+                  "zh/quickstart",
+                  "zh/development"
                 ]
               },
               {
-                "group": "Customization",
+                "group": "自定义",
                 "pages": [
-                  "essentials/settings",
-                  "essentials/navigation"
+                  "zh/essentials/settings",
+                  "zh/essentials/navigation"
                 ]
               },
               {
-                "group": "Writing content",
+                "group": "内容编写",
                 "pages": [
-                  "essentials/markdown",
-                  "essentials/code",
-                  "essentials/images",
-                  "essentials/reusable-snippets"
+                  "zh/essentials/markdown",
+                  "zh/essentials/code",
+                  "zh/essentials/images",
+                  "zh/essentials/reusable-snippets"
                 ]
               },
               {
-                "group": "AI tools",
+                "group": "AI 工具",
                 "pages": [
-                  "ai-tools/cursor",
-                  "ai-tools/claude-code",
-                  "ai-tools/windsurf"
+                  "zh/ai-tools/cursor",
+                  "zh/ai-tools/claude-code",
+                  "zh/ai-tools/windsurf"
                 ]
               }
             ]
           },
           {
-            "tab": "API reference",
+            "tab": "API 参考",
             "groups": [
               {
-                "group": "API documentation",
+                "group": "API 文档",
                 "pages": [
-                  "api-reference/introduction"
+                  "zh/api-reference/introduction"
                 ]
               },
               {
-                "group": "Endpoint examples",
+                "group": "端点示例",
                 "pages": [
-                  "api-reference/endpoint/get",
-                  "api-reference/endpoint/create",
-                  "api-reference/endpoint/delete",
-                  "api-reference/endpoint/webhook"
+                  "zh/api-reference/endpoint/get",
+                  "zh/api-reference/endpoint/create",
+                  "zh/api-reference/endpoint/delete",
+                  "zh/api-reference/endpoint/webhook"
                 ]
               }
             ]
@@ -225,12 +225,12 @@
         "global": {
           "anchors": [
             {
-              "anchor": "Documentation",
+              "anchor": "文档",
               "href": "https://mintlify.com/docs",
               "icon": "book-open-cover"
             },
             {
-              "anchor": "Blog",
+              "anchor": "博客",
               "href": "https://mintlify.com/blog",
               "icon": "newspaper"
             }

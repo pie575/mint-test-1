@@ -1,0 +1,43 @@
+---
+title: "Windsurf 设置"
+description: "为你的文档工作流配置 Windsurf"
+icon: "water"
+---
+
+设置 Windsurf 的 Cascade AI 助手，协助你编写和维护 Mintlify 文档。
+
+<div id="prerequisites">
+  ## 先决条件
+</div>
+
+* 已安装 Windsurf 编辑器
+
+<div id="setup">
+  ## 设置
+</div>
+
+<Steps>
+  <Step title="在 Windsurf 中打开文档目录">
+    打开文档仓库的根目录，即 `docs.json` 所在的位置。
+  </Step>
+
+  <Step title="安装 Mintlify skill">
+    在集成终端中运行：
+
+    ```bash
+    npx skills add https://mintlify.com/docs
+    ```
+
+    这样 Windsurf 就能获得 Mintlify 的组件参考、写作规范
+    和工作流指引。
+  </Step>
+
+  <Step title="自定义项目说明">
+    编辑项目根目录中的 `AGENTS.md`，添加项目专用术语、
+    风格偏好和内容边界。
+  </Step>
+
+  <Step title="开始使用 Cascade 编写文档">
+    打开一个文件，然后使用 Cascade 起草和编辑文档。
+  </Step>
+</Steps>

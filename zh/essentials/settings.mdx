@@ -1,0 +1,348 @@
+---
+title: '全局设置'
+description: '使用 docs.json 控制文档的外观和风格'
+icon: 'gear'
+---
+
+每个 Mintlify 站点都需要一个包含核心配置的 `docs.json` 文件。请在下方进一步了解这些[属性](#properties)。
+
+<div id="properties">
+  ## 属性
+</div>
+
+<ResponseField name="name" type="string" required>
+  项目名称，用于全局标题。
+
+  示例：`mintlify`
+</ResponseField>
+
+<ResponseField name="navigation" type="Navigation[]" required>
+  包含各分组及其下所有页面的数组
+
+  <Expandable title="导航">
+    <ResponseField name="group" type="string">
+      分组名称。
+
+      示例：`Settings`
+    </ResponseField>
+
+    <ResponseField name="pages" type="string[]">
+      作为页面的 Markdown 文件的相对路径。
+
+      示例：`["customization", "page"]`
+    </ResponseField>
+  </Expandable>
+</ResponseField>
+
+<ResponseField name="logo" type="string or object">
+  logo 图片路径，或包含浅色与深色模式 logo 图片路径的对象
+
+  <Expandable title="Logo">
+    <ResponseField name="light" type="string">
+      浅色模式下的 logo 路径
+    </ResponseField>
+
+    <ResponseField name="dark" type="string">
+      深色模式下的 logo 路径
+    </ResponseField>
+
+    <ResponseField name="href" type="string" default="/">
+      点击 logo 后跳转的链接
+    </ResponseField>
+  </Expandable>
+</ResponseField>
+
+<ResponseField name="favicon" type="string">
+  favicon 图片路径
+</ResponseField>
+
+<ResponseField name="colors" type="Colors">
+  全局主题的十六进制颜色代码
+
+  <Expandable title="颜色">
+    <ResponseField name="primary" type="string" required>
+      主色，通常用于浅色模式下的高亮内容、章节
+      标题和强调色
+    </ResponseField>
+
+    <ResponseField name="light" type="string">
+      深色模式下的主色，通常用于深色模式下的高亮
+      内容、章节标题和强调色
+    </ResponseField>
+
+    <ResponseField name="dark" type="string">
+      重要按钮使用的主色
+    </ResponseField>
+
+    <ResponseField name="background" type="object">
+      浅色和深色模式下的背景颜色
+
+      <Expandable title="对象">
+        <ResponseField name="light" type="string" required>
+          浅色模式下背景的十六进制颜色代码
+        </ResponseField>
+
+        <ResponseField name="dark" type="string" required>
+          深色模式下背景的十六进制颜色代码
+        </ResponseField>
+      </Expandable>
+    </ResponseField>
+  </Expandable>
+</ResponseField>
+
+<ResponseField name="topbarLinks" type="TopbarLink[]">
+  要显示在顶部栏中的链接 `name` 和 `url` 数组
+
+  <Expandable title="TopbarLink">
+    <ResponseField name="name" type="string">
+      按钮名称。
+
+      示例：`Contact us`
+    </ResponseField>
+
+    <ResponseField name="url" type="string">
+      点击按钮后跳转到的 URL。示例：`https://mintlify.com/docs`
+    </ResponseField>
+  </Expandable>
+</ResponseField>
+
+<ResponseField name="topbarCtaButton" type="Call to Action">
+  <Expandable title="顶部栏行动号召">
+    <ResponseField name="type" type={'"link" or "github"'} default="link">
+      `link` 显示为按钮。`github` 显示所提供 URL 对应仓库的信息，包括 GitHub star 数量。
+    </ResponseField>
+
+    <ResponseField name="url" type="string">
+      如果为 `link`：按钮跳转到的链接。
+
+      如果为 `github`：用于加载 GitHub 信息的仓库链接。
+    </ResponseField>
+
+    <ResponseField name="name" type="string">
+      按钮中的文本。仅当 `type` 为 `link` 时必填。
+    </ResponseField>
+  </Expandable>
+</ResponseField>
+
+<ResponseField name="versions" type="string[]">
+  版本名称数组。仅当你想通过导航栏中的下拉菜单显示不同版本
+  的文档时使用此项。
+</ResponseField>
+
+<ResponseField name="anchors" type="Anchor[]">
+  锚点数组，包含 `icon`、`color` 和 `url`。
+
+  <Expandable title="Anchor">
+    <ResponseField name="icon" type="string">
+      用于显示锚点的 [Font Awesome](https://fontawesome.com/search?q=heart) 图标。
+
+      示例：`comments`
+    </ResponseField>
+
+    <ResponseField name="name" type="string">
+      锚点标签名称。
+
+      示例：`Community`
+    </ResponseField>
+
+    <ResponseField name="url" type="string">
+      用于标识哪些页面归入该锚点的 URL 前缀。通常，这就是你存放页面的文件夹名称。
+    </ResponseField>
+
+    <ResponseField name="color" type="string">
+      锚点图标背景的十六进制颜色。你也可以传入一个包含 `from` 和 `to` 属性的对象来使用渐变色，这两个属性的值都应为十六进制颜色。
+    </ResponseField>
+
+    <ResponseField name="version" type="string">
+      如果你想在选择正确的文档版本之前隐藏锚点，请使用此项。
+    </ResponseField>
+
+    <ResponseField name="isDefaultHidden" type="boolean" default="false">
+      如果你希望在用户通过直接链接访问其中的文档之前隐藏该锚点，请传入 `true`。
+    </ResponseField>
+
+    <ResponseField name="iconType" default="duotone" type="string">
+      可选值之一：&quot;brands&quot;、&quot;duotone&quot;、&quot;light&quot;、&quot;sharp-solid&quot;、&quot;solid&quot; 或 &quot;thin&quot;
+    </ResponseField>
+  </Expandable>
+</ResponseField>
+
+<ResponseField name="topAnchor" type="Object">
+  覆盖最上方锚点的默认配置。
+
+  <Expandable title="Object">
+    <ResponseField name="name" default="Documentation" type="string">
+      最上方锚点的名称
+    </ResponseField>
+
+    <ResponseField name="icon" default="book-open" type="string">
+      Font Awesome 图标。
+    </ResponseField>
+
+    <ResponseField name="iconType" default="duotone" type="string">
+      可选值之一：&quot;brands&quot;、&quot;duotone&quot;、&quot;light&quot;、&quot;sharp-solid&quot;、&quot;solid&quot; 或 &quot;thin&quot;
+    </ResponseField>
+  </Expandable>
+</ResponseField>
+
+<ResponseField name="tabs" type="Tabs[]">
+  导航选项卡数组。
+
+  <Expandable title="Tabs">
+    <ResponseField name="name" type="string">
+      选项卡标签名称。
+    </ResponseField>
+
+    <ResponseField name="url" type="string">
+      用于标识哪些页面归入该选项卡的 URL 前缀。通常，这
+      就是你存放页面的文件夹名称。
+    </ResponseField>
+  </Expandable>
+</ResponseField>
+
+<ResponseField name="api" type="API">
+  API 设置相关配置。前往 [API Components](/zh/api-playground/demo) 了解更多关于 API 页面的信息。
+
+  <Expandable title="API">
+    <ResponseField name="baseUrl" type="string">
+      所有 API 端点的基础 URL。如果 `baseUrl` 是数组，则会启用多个基础 URL
+      选项，用户可在它们之间切换。
+    </ResponseField>
+
+    <ResponseField name="auth" type="Auth">
+      <Expandable title="身份验证">
+        <ResponseField name="method" type="&#x22;bearer&#x22; | &#x22;basic&#x22; | &#x22;key&#x22;">
+          所有 API 端点使用的身份验证策略。
+        </ResponseField>
+
+        <ResponseField name="name" type="string">
+          API 演练场中使用的身份验证参数名称。
+
+          如果 method 为 `basic`，格式应为 `[usernameName]:[passwordName]`
+        </ResponseField>
+
+        <ResponseField name="inputPrefix" type="string">
+          用作身份验证输入字段前缀的默认值。
+
+          例如，如果 `inputPrefix` 为 `AuthKey`，则身份验证字段的默认输入值将以 `AuthKey` 作为前缀。
+        </ResponseField>
+      </Expandable>
+    </ResponseField>
+
+    <ResponseField name="playground" type="Playground">
+      API 演练场的配置
+
+      <Expandable title="演练场">
+        <ResponseField name="mode" default="show" type="&#x22;show&#x22; | &#x22;simple&#x22; | &#x22;hide&#x22;">
+          设置演练场是显示、隐藏，还是仅显示端点而不提供额外用户交互 (`simple`)
+
+          前往 [playground guides](/zh/api-playground/demo) 了解更多
+        </ResponseField>
+      </Expandable>
+    </ResponseField>
+
+    <ResponseField name="maintainOrder" type="boolean">
+      启用此标志后，可确保 OpenAPI 页面中的键顺序与 OpenAPI 文件中定义的键顺序一致。
+
+      <Warning>该行为很快将默认启用，届时此字段将被弃用。</Warning>
+    </ResponseField>
+  </Expandable>
+</ResponseField>
+
+<ResponseField name="openapi" type="string | string[]">
+  一个字符串或字符串数组，表示指向你的
+  OpenAPI 文件的 URL 或相对路径。
+
+  示例：
+
+  <CodeGroup>
+    ```json Absolute
+    "openapi": "https://example.com/openapi.json"
+    ```
+
+    ```json Relative
+    "openapi": "/openapi.json"
+    ```
+
+    ```json Multiple
+    "openapi": ["https://example.com/openapi1.json", "/openapi2.json", "/openapi3.json"]
+    ```
+  </CodeGroup>
+</ResponseField>
+
+<ResponseField name="footerSocials" type="FooterSocials">
+  一个社交媒体账号对象，其中键值对表示社交媒体平台和账号 URL。
+
+  示例：
+
+  ```json
+  {
+    "x": "https://x.com/mintlify",
+    "website": "https://mintlify.com"
+  }
+  ```
+
+  <Expandable title="页脚社交链接">
+    <ResponseField name="[key]" type="string">
+      以下值之一：`website`、`facebook`、`x`、`discord`、`slack`、`github`、`linkedin`、`instagram`、`hacker-news`
+
+      示例：`x`
+    </ResponseField>
+
+    <ResponseField name="property" type="string">
+      社交平台的 URL。
+
+      示例：`https://x.com/mintlify`
+    </ResponseField>
+  </Expandable>
+</ResponseField>
+
+<ResponseField name="feedback" type="Feedback">
+  用于启用反馈按钮的配置
+
+  <Expandable title="反馈">
+    <ResponseField name="suggestEdit" type="boolean" default="false">
+      启用一个按钮，让用户通过拉取请求建议编辑
+    </ResponseField>
+
+    <ResponseField name="raiseIssue" type="boolean" default="false">
+      启用一个按钮，让用户针对文档提交问题
+    </ResponseField>
+  </Expandable>
+</ResponseField>
+
+<ResponseField name="modeToggle" type="ModeToggle">
+  自定义深色模式切换开关。
+
+  <Expandable title="ModeToggle">
+    <ResponseField name="default" type={'"light" or "dark"'}>
+      设置是否始终为新用户显示浅色或深色模式。未设置时，
+      默认跟随用户操作系统的模式。
+    </ResponseField>
+
+    <ResponseField name="isHidden" type="boolean" default="false">
+      设为 true 可隐藏浅色/深色模式切换开关。你可以将 `isHidden` 与 `default` 搭配使用，强制文档仅使用浅色或深色模式。例如：
+
+      <CodeGroup>
+        ```json Only Dark Mode
+        "modeToggle": {
+          "default": "dark",
+          "isHidden": true
+        }
+        ```
+
+        ```json Only Light Mode
+        "modeToggle": {
+          "default": "light",
+          "isHidden": true
+        }
+        ```
+      </CodeGroup>
+    </ResponseField>
+  </Expandable>
+</ResponseField>
+
+<ResponseField name="backgroundImage" type="string">
+  显示在每个页面后方的背景图片。可参考
+  [Infisical](https://infisical.com/docs) 和 [FRPC](https://frpc.io) 的示例。
+</ResponseField>
