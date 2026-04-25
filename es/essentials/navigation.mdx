@@ -6,13 +6,13 @@ icon: 'map'
 
 El menú de navegación es la lista de enlaces que aparece en cada página de tu sitio de documentación.
 
-Tendrás que actualizar `docs.json` cada vez que agregues una nueva página. Las páginas no se muestran automáticamente.
+Actualiza `docs.json` cada vez que agregues una nueva página: las páginas no se añaden automáticamente a la lista.
 
 <div id="navigation-syntax">
   ## Sintaxis de la navegación
 </div>
 
-La sintaxis de la navegación es recursiva, lo que significa que puedes crear grupos de navegación anidados. No necesitas incluir `.mdx` en los nombres de las páginas.
+La sintaxis de la navegación es recursiva — puedes crear grupos de navegación anidados. No necesitas incluir `.mdx` en los nombres de las páginas.
 
 <CodeGroup>
   ```json Navegación estándar
@@ -63,10 +63,10 @@ Coloca tus archivos MDX en carpetas y actualiza las rutas en `docs.json`.
 Por ejemplo, para tener una página en `https://yoursite.com/your-folder/your-page`, crea una carpeta llamada `your-folder` que contenga un archivo MDX llamado `your-page.mdx`.
 
 <Warning>
-  No puedes usar `api` como nombre de una carpeta a menos que esté anidada dentro de otra. Mintlify usa Next.js, que reserva la carpeta `api` de nivel superior para llamadas internas del servidor. Se aceptaría un nombre de carpeta como `api-reference`.
+  No puedes usar `api` como nombre de una carpeta de nivel superior. Mintlify usa Next.js, que reserva la carpeta `api` para llamadas internas del servidor. Usa en su lugar un nombre como `api-reference` o anídala dentro de otra carpeta.
 </Warning>
 
-```json Navigation With Folder
+```json navegación With Folder
 "navigation": {
   "tabs": [
     {
@@ -86,4 +86,4 @@ Por ejemplo, para tener una página en `https://yoursite.com/your-folder/your-pa
   ## Páginas ocultas
 </div>
 
-Los archivos MDX que no estén incluidos en `docs.json` no aparecerán en la barra lateral, pero seguirán siendo accesibles desde la barra de búsqueda y mediante enlaces directos.
+Los archivos MDX que no estén incluidos en `docs.json` no aparecerán en la barra lateral, pero seguirán siendo accesibles mediante la búsqueda y enlaces directos.

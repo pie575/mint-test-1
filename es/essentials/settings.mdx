@@ -4,7 +4,7 @@ description: 'Controla el aspecto y el comportamiento de tu documentación con d
 icon: 'gear'
 ---
 
-Cada sitio de Mintlify requiere un archivo `docs.json` con la configuración básica. Consulta las [propiedades](#properties) a continuación para obtener más información.
+Cada sitio de Mintlify requiere un archivo `docs.json` con su configuración básica. Consulta las [propiedades](#properties) a continuación para obtener más información.
 
 <div id="properties">
   ## Propiedades
@@ -27,7 +27,7 @@ Cada sitio de Mintlify requiere un archivo `docs.json` con la configuración bá
     </ResponseField>
 
     <ResponseField name="pages" type="string[]">
-      Las rutas relativas a los archivos Markdown que se usarán como páginas.
+      Las rutas relativas a los archivos MDX que se usarán como páginas.
 
       Ejemplo: `["customization", "page"]`
     </ResponseField>
@@ -35,7 +35,7 @@ Cada sitio de Mintlify requiere un archivo `docs.json` con la configuración bá
 </ResponseField>
 
 <ResponseField name="logo" type="string or object">
-  Ruta a la imagen del logotipo o a un objeto con la ruta de las imágenes del logotipo para los modos &quot;light&quot; y &quot;dark&quot;
+  Ruta a una imagen de logotipo o a un objeto con rutas independientes del logotipo para los modos &quot;light&quot; y &quot;dark&quot;
 
   <Expandable title="Logo">
     <ResponseField name="light" type="string">
@@ -249,8 +249,8 @@ Cada sitio de Mintlify requiere un archivo `docs.json` con la configuración bá
 </ResponseField>
 
 <ResponseField name="openapi" type="string | string[]">
-  Una cadena o un arreglo de cadenas con URL o rutas relativas que apuntan a tu
-  archivo OpenAPI.
+  Una URL o ruta relativa que apunta a tu archivo OpenAPI. También puede ser un arreglo para
+  varios archivos.
 
   Ejemplos:
 
@@ -315,8 +315,8 @@ Cada sitio de Mintlify requiere un archivo `docs.json` con la configuración bá
 
   <Expandable title="ModeToggle">
     <ResponseField name="default" type={'"light" or "dark"'}>
-      Define si quieres mostrar siempre el modo claro o oscuro a los usuarios nuevos. Si no
-      se establece, se usa de forma predeterminada el mismo modo que el sistema operativo del usuario.
+      Fuerza el modo claro u oscuro para los usuarios nuevos. Si no
+      se establece, se usa de forma predeterminada la preferencia del sistema operativo del usuario.
     </ResponseField>
 
     <ResponseField name="isHidden" type="boolean" default="false">

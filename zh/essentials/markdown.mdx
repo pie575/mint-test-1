@@ -46,7 +46,7 @@ icon: 'text-size'
 | 斜体    | `_italic_`        | *italic*          |
 | 删除线   | `~strikethrough~` | ~~strikethrough~~ |
 
-这些格式也可以组合使用。例如，写成 `**_bold and italic_**` 就会得到 ***bold and italic*** 文本。
+这些格式也可以组合使用。例如，`**_bold and italic_**` 会生成 ***bold and italic*** 文本。
 
 如果要设置上标和下标，请使用 HTML 标签。将文本包裹在 `<sup>` 或 `<sub>` 中。
 
@@ -59,11 +59,11 @@ icon: 'text-size'
   ## 链接到页面
 </div>
 
-你可以用 `[]()` 包裹文本来添加链接。比如，写成 `[link to google](https://google.com)`，就会显示为 [link to google](https://google.com)。
+用 `[]()` 包裹文本即可添加链接。例如，`[link to google](https://google.com)` 会显示为 [link to google](https://google.com)。
 
-链接到文档中的页面时，需要使用根相对路径。请包含完整的文件夹路径——例如，`[link to text](/writing-content/text)` 会链接到组件部分中的“Text”页面。
+链接到文档中的页面时，应使用根相对路径。请包含完整的文件夹路径——例如，`[link to text](/writing-content/text)` 会链接到组件部分中的“Text”页面。
 
-像 `[link to text](../text)` 这样的相对链接加载会更慢，因为它们不易被优化。
+像 `[link to text](../text)` 这样的相对链接加载更慢，因为它们不易被优化。
 
 <div id="blockquotes">
   ## 引述
@@ -99,7 +99,7 @@ icon: 'text-size'
   ### LaTeX
 </div>
 
-Mintlify 支持通过 Latex 组件使用 [LaTeX](https://www.latex-project.org)。
+Mintlify 支持通过 Latex 组件使用 [LaTeX](https://www.latex-project.org) 公式。
 
 <Latex>8 x (vk x H1 - H2) = (0,1)</Latex>
 
