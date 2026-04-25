@@ -25,9 +25,8 @@ import SnippetIntro from '/snippets/es/snippet-intro.mdx';
   ### Exportación predeterminada
 </div>
 
-1. Agrega al archivo de fragmento el contenido que quieras reutilizar en varias
-   ubicaciones. También puedes agregar variables opcionales que se rellenan mediante props
-   al importarlo.
+1. Agrega al archivo de fragmento el contenido que quieras reutilizar. También puedes
+   incluir variables opcionales que se rellenan mediante props al importarlo.
 
 ```mdx snippets/my-snippet.mdx
 Hello world! This is my content I want to reuse across pages. My keyword of the
@@ -51,7 +50,7 @@ import MySnippet from '/snippets/path/to/my-snippet.mdx';
 
 ## Header
 
-Lorem impsum dolor sit amet.
+Lorem ipsum dolor sit amet.
 
 <MySnippet word="bananas" />
 ```
@@ -68,7 +67,7 @@ export const myName = 'my name';
 export const myObject = { fruit: 'strawberries' };
 ```
 
-2. Importa el fragmento en el archivo de destino y usa la variable:
+2. Importa la variable en el archivo de destino y úsala:
 
 ```mdx destination-file.mdx
 ---
@@ -102,7 +101,7 @@ export const MyComponent = ({ title }) => (
   sintaxis HTML siempre que puedas, o una exportación predeterminada si necesitas usar MDX.
 </Warning>
 
-2. Importa el fragmento en el archivo de destino y pásale las props
+2. Importa el fragmento en el archivo de destino y pásale las props:
 
 ```mdx destination-file.mdx
 ---

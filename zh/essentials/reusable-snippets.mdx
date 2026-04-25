@@ -22,7 +22,7 @@ import SnippetIntro from '/snippets/zh/snippet-intro.mdx';
   ### 默认导出
 </div>
 
-1. 在代码片段文件中添加你想在多个位置复用的内容。你也可以根据需要添加变量，在导入时通过 props 传入值。
+1. 在代码片段文件中添加你想复用的内容。你也可以根据需要添加变量，在导入时通过 props 传入值。
 
 ```mdx snippets/my-snippet.mdx
 Hello world! This is my content I want to reuse across pages. My keyword of the
@@ -46,7 +46,7 @@ import MySnippet from '/snippets/path/to/my-snippet.mdx';
 
 ## Header
 
-Lorem impsum dolor sit amet.
+Lorem ipsum dolor sit amet.
 
 <MySnippet word="bananas" />
 ```
@@ -63,7 +63,7 @@ export const myName = 'my name';
 export const myObject = { fruit: 'strawberries' };
 ```
 
-2. 在目标文件中导入该代码片段，并使用该变量：
+2. 在目标文件中导入该变量，并使用该变量：
 
 ```mdx destination-file.mdx
 ---
@@ -97,7 +97,7 @@ export const MyComponent = ({ title }) => (
   语法；如果需要使用 MDX，请改用默认导出。
 </Warning>
 
-2. 将代码片段导入目标文件，并传入 props
+2. 将代码片段导入目标文件，并传入 props：
 
 ```mdx destination-file.mdx
 ---

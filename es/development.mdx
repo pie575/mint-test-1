@@ -1,6 +1,6 @@
 ---
 título: 'Desarrollo'
-description: 'Obtén una vista previa local de los cambios para actualizar tu documentación'
+description: 'Instala la CLI y obtén una vista previa local de tu documentación'
 ---
 
 <Info>
@@ -26,7 +26,7 @@ Sigue estos pasos para instalar y ejecutar Mintlify localmente en tu sistema ope
     mint dev
     ```
 
-    Tendrás una vista previa local de tu documentación en `http://localhost:3000`.
+    Tu documentación estará disponible localmente en `http://localhost:3000`.
   </Step>
 </Steps>
 
@@ -40,17 +40,17 @@ De forma predeterminada, Mintlify usa el puerto 3000. Puedes cambiar el puerto c
 mint dev --port 3333
 ```
 
-Si el puerto especificado ya está en uso, Mintlify usará automáticamente el siguiente puerto disponible:
+Si el puerto especificado ya está en uso, Mintlify recurrirá automáticamente al siguiente puerto disponible:
 
 ```md
-El puerto 3000 ya está en uso. Se probará con el 3001.
+El puerto 3000 ya está en uso. Probando con el 3001.
 ```
 
 <div id="mintlify-versions">
   ## Versiones de Mintlify
 </div>
 
-Cada versión de la CLI está asociada a una versión específica de Mintlify. Si la vista previa local no coincide con la versión de producción, actualiza la CLI:
+Cada versión de la CLI corresponde a una versión específica de Mintlify. Si la vista previa local no coincide con producción, actualiza la CLI:
 
 ```bash
 npm mint update
@@ -60,7 +60,7 @@ npm mint update
   ## Validación de enlaces
 </div>
 
-La CLI puede ayudarte a validar los enlaces de tu documentación. Para identificar enlaces rotos, usa el siguiente comando:
+La CLI puede validar los enlaces de tu documentación. Para encontrar enlaces rotos, ejecuta:
 
 ```bash
 mint broken-links
@@ -70,7 +70,7 @@ mint broken-links
   ## Despliegue
 </div>
 
-Si el despliegue se completa correctamente, deberías ver lo siguiente:
+Un despliegue exitoso se ve así:
 
 <Frame>
   <img src="/images/checks-passed.png" alt="Captura de pantalla de un mensaje de confirmación de despliegue que dice «All checks have passed.»" style={{ borderRadius: '0.5rem' }} />
@@ -100,4 +100,4 @@ Recomendamos usar extensiones del IDE para reconocer y dar formato a archivos MD
   </Accordion>
 </AccordionGroup>
 
-¿Quieres ver qué cambió en la versión más reciente de la CLI? Consulta el [registro de cambios de la CLI](https://www.npmjs.com/package/mintlify?activeTab=versions).
+¿Tienes curiosidad por las actualizaciones recientes? Consulta el [registro de cambios de la CLI](https://www.npmjs.com/package/mintlify?activeTab=versions).

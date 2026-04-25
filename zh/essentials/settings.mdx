@@ -4,7 +4,7 @@ description: '使用 docs.json 自定义文档的外观和风格'
 icon: 'gear'
 ---
 
-每个 Mintlify 站点都需要一个包含核心配置的 `docs.json` 文件。详情请参阅下方的[属性](#properties)。
+每个 Mintlify 站点都需要一个包含其核心配置的 `docs.json` 文件。详情请参阅下方的[属性](#properties)。
 
 <div id="properties">
   ## 属性
@@ -27,7 +27,7 @@ icon: 'gear'
     </ResponseField>
 
     <ResponseField name="pages" type="string[]">
-      作为页面使用的 Markdown 文件的相对路径。
+      作为页面使用的 MDX 文件的相对路径。
 
       示例：`["customization", "page"]`
     </ResponseField>
@@ -35,7 +35,7 @@ icon: 'gear'
 </ResponseField>
 
 <ResponseField name="logo" type="string or object">
-  Logo 图片路径，或包含浅色和深色模式 Logo 图片路径的对象
+  Logo 图片路径，或包含单独的“浅色”和“深色”模式 Logo 路径的对象
 
   <Expandable title="Logo">
     <ResponseField name="light" type="string">
@@ -249,8 +249,8 @@ icon: 'gear'
 </ResponseField>
 
 <ResponseField name="openapi" type="string | string[]">
-  一个字符串或字符串数组，包含指向你的
-  OpenAPI 文件的 URL 或相对路径。
+  指向你的 OpenAPI 文件的 URL 或相对路径。也可以是包含
+  多个文件的数组。
 
   示例：
 
@@ -315,7 +315,7 @@ icon: 'gear'
 
   <Expandable title="ModeToggle">
     <ResponseField name="default" type={'"light" or "dark"'}>
-      设置是否始终为新用户显示浅色或深色模式。若未设置，默认会跟随用户操作系统的模式。
+      为新用户强制启用浅色或深色模式。若未设置，则默认跟随用户操作系统的偏好设置。
     </ResponseField>
 
     <ResponseField name="isHidden" type="boolean" default="false">
