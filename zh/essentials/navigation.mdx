@@ -6,13 +6,13 @@ icon: 'map'
 
 导航菜单就是文档站点每个页面上显示的链接列表。
 
-每次添加新页面时，你都需要更新 `docs.json`。页面不会自动出现。
+每次添加新页面时，都要更新 `docs.json`——页面不会自动列出。
 
 <div id="navigation-syntax">
   ## 导航语法
 </div>
 
-导航语法采用递归结构，这意味着你可以创建嵌套的导航分组。页面名称中无需包含 `.mdx`。
+导航语法采用递归结构——你可以创建嵌套的导航分组。页面名称中无需包含 `.mdx`。
 
 <CodeGroup>
   ```json 常规导航
@@ -63,7 +63,7 @@ icon: 'map'
 例如，如果你想让页面显示在 `https://yoursite.com/your-folder/your-page`，请创建一个名为 `your-folder` 的文件夹，并在其中放置一个名为 `your-page.mdx` 的 MDX 文件。
 
 <Warning>
-  除非将其嵌套在另一个文件夹内，否则不能将文件夹命名为 `api`。Mintlify 使用 Next.js，而 Next.js 会将顶层的 `api` 文件夹保留给内部服务器调用使用。像 `api-reference` 这样的文件夹名称则可以使用。
+  不能将 `api` 用作顶层文件夹名称。Mintlify 使用 Next.js，而 Next.js 会将 `api` 文件夹保留给内部服务器调用使用。请改用类似 `api-reference` 的名称，或将其嵌套在另一个文件夹内。
 </Warning>
 
 ```json Navigation With Folder
