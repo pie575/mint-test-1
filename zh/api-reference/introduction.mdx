@@ -4,7 +4,8 @@ description: '了解如何设置和使用 API 参考文档'
 ---
 
 <Note>
-  如果你不需要构建 API 参考文档，可以删除 api-reference 文件夹以移除这一部分。
+  如果你不需要 API 参考文档，可以放心删除
+  api-reference 文件夹。
 </Note>
 
 <div id="welcome">
@@ -14,14 +15,14 @@ description: '了解如何设置和使用 API 参考文档'
 构建 API 文档有两种方式：[OpenAPI](https://mintlify.com/docs/api-playground/openapi/setup) 和 [MDX 组件](https://mintlify.com/docs/api-playground/mdx/configuration)。本入门套件使用下面的 OpenAPI 规范。
 
 <Card title="植物商店端点" icon="leaf" href="https://github.com/mintlify/starter/blob/main/api-reference/openapi.json">
-  查看 OpenAPI 规范文件
+  查看完整的 OpenAPI 规范文件
 </Card>
 
 <div id="authentication">
   ## 身份验证
 </div>
 
-所有 API 端点均使用 Bearer 令牌进行身份验证，具体如规范文件中所定义。
+所有 API 端点均要求使用 Bearer 令牌进行身份验证，具体如规范文件中所定义。
 
 ```json
 "security": [
